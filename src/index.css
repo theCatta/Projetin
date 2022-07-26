@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Inter';
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
